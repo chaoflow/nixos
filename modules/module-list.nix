@@ -249,6 +249,7 @@
   ./tasks/network-interfaces.nix
   ./tasks/scsi-link-power-management.nix
   ./tasks/swraid.nix
+  ./tasks/trackpoint.nix
   ./tasks/tty-backgrounds.nix
   ./virtualisation/libvirtd.nix
   ./virtualisation/nova.nix
