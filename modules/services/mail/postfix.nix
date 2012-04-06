@@ -356,6 +356,21 @@ in
         }
       ];
 
+    security.setuidOwners =
+      [ { program = "postdrop";
+          owner = "nobody";
+          group = "postdrop";
+          setuid = false;
+          setgid = true;
+        }
+        { program = "postqueue";
+          owner = "nobody";
+          group = "postdrop";
+          setuid = false;
+          setgid = true;
+        }
+      ];
+
     jobs.postfix =
       # I copy _lots_ of shipped configuration filed
       # that can be left as is. I am afraid the exact
