@@ -117,12 +117,14 @@
   ./services/misc/rogue.nix
   ./services/misc/svnserve.nix
   ./services/misc/synergy.nix
+  ./services/monitoring/apcupsd.nix
   ./services/monitoring/dd-agent.nix
   ./services/monitoring/monit.nix
   ./services/monitoring/nagios/default.nix
   ./services/monitoring/smartd.nix
   ./services/monitoring/systemhealth.nix
   ./services/monitoring/ups.nix
+  ./services/monitoring/uptime.nix
   ./services/monitoring/zabbix-agent.nix
   ./services/monitoring/zabbix-server.nix
   ./services/network-filesystems/drbd.nix
